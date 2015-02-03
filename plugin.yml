@@ -1,0 +1,19 @@
+#name, main, version and api are required
+name: InvSee
+main: tschrock\InvSee\InvSee
+version: 0.0.1
+api: [1.0.0]
+
+load: POSTWORLD
+author: tschrock (tschrock123@gmail.com)
+description: See a player's inventory
+website: http://www.tschrock.net
+commands:
+ invsee:
+  description: "See a player's inventory"
+  usage: "/invsee <player>"
+  permission: tschrock.invsee.command
+permissions:
+ tschrock.invsee.command:
+  description: "Allows the user to see a player's inventory"
+  default: op
