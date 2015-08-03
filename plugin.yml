@@ -6,7 +6,7 @@ api: [1.0.0]
 
 load: POSTWORLD
 author: tschrock (tschrock123@gmail.com)
-description: See a player's inventory
+description: See a copy of a player's inventory
 website: http://www.tschrock.net
 commands:
  invsee:

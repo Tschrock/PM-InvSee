@@ -47,7 +47,7 @@ class InvSee extends PluginBase {
                                 $sender->sendMessage("That player doesn't exist or isn't online!");
                             }
                         } else {
-                            $sender->sendMessage("You are already looking at a player's inventory. Use `/invsee clear` to stop looking.");
+                            $sender->sendMessage("You are already looking at a player's inventory. Use `/invsee` to stop looking.");
                         }
                     }
                 } else {
@@ -61,7 +61,7 @@ class InvSee extends PluginBase {
                                 $sender->sendMessage($item->getCount() . " " . $item->getName() . " (" . $item->getId() . ":" . $item->getDamage() . ")");
                             }
                         } else {
-                            $sender->sendMessage("You are already looking at a player's inventory. Use `/invsee clear` to stop looking.");
+                                $sender->sendMessage("That player doesn't exist or isn't online!");
                         }
                     }
                 }
